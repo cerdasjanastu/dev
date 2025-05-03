@@ -7,3 +7,4 @@ yay -S --noconfirm --needed \
     bluez-utils \
     blueberry \
     grim \
+    cliphist \
