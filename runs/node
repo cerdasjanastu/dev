@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo paru -S --noconfirm --needed nodejs npm bun-bin
+yay -S --noconfirm --needed nodejs npm bun-bin
