@@ -5,6 +5,15 @@ yay -S --noconfirm --needed \
     blueman \
     bluez \
     bluez-utils \
-    blueberry \
     grim \
     cliphist \
+    ttf-font-awesome \
+    thunar \
+    man-db \
+    jq \
+    adwaita-dark \
+    pavucontrol \
+    grim \
+    slurp \
+    imv \
+    spotify \
