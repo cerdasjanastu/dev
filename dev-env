@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+if ! command -v stow &> /dev/null; then
+    sudo pacman -S --noconfirm --needed stow
+fi
+
+if [ -d "./.dotfiles" ]; then
+    git submodule update --init --recursive
+fi
+
+cd .dotfiles
+dotfiles=`find . -mindepth 1 -maxdepth 1 -type d -exec basename {} \;`
+for dir in $dotfiles; do
+    stow --target=$HOME "$dir" --adopt
+done
+
