@@ -18,3 +18,5 @@ yay -S --noconfirm --needed \
     imv \
     spotify \
     hyprshot \
+    gst-libav \
+    ffmpeg \
