@@ -7,6 +7,8 @@ yay -S --noconfirm --needed \
     bluez-utils \
     grim \
     cliphist \
+    ttf-jetbrains-mono-nerd \
+    ttf-nerd-fonts-symbols \
     ttf-font-awesome \
     thunar \
     man-db \

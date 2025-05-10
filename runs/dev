@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --noconfirm --needed base-devel git
-sudo pacman -S --noconfirm --needed tldr go fzf tmux
+sudo pacman -S --noconfirm --needed tldr go fzf tmux ripgrep fg
 
 if ! command -v yay &> /dev/null; then
     git clone https://aur.archlinux.org/yay.git $HOME/yay
